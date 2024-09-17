@@ -13,11 +13,13 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("Enter a Number from 1 to 30");
+		int num1 = in.nextInt();
+		System.out.println("Enter a name");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
-
-	}
+		
+		
+		
+		System.out.println(" On the"+num1+" of septemeber"+name+" fell on his"+body part+" while playing"+sport+);	}
 
 }
